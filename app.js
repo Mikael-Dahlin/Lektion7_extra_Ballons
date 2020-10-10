@@ -34,6 +34,7 @@ function pop(element) {
   element.classList.add("popped");
 }
 
+// function to check if all balloons are popped
 function checkDone(){
   if (
     balloons.length === document.querySelectorAll(".popped").length &&
