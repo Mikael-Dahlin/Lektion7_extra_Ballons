@@ -22,7 +22,6 @@ resetButton.addEventListener("click", () => {
 
 // function to pop the balloon
 function pop(element) {
-  console.log(element);
   element.textContent = "POP!";
   element.classList.add("popped");
   if (
