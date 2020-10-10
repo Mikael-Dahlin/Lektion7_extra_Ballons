@@ -1,0 +1,49 @@
+#header {
+  color: blue;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+}
+
+.resetButton {
+  margin-top: 100px;
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: coral;
+  color: #fff;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+.buttonRed {
+  background-color: red;
+}
+
+.buttonBlue {
+  background-color: blue;
+}
+
+.buttonYellow {
+  background-color: yellow;
+}
+
+.buttonViolet {
+  background-color: violet;
+}
+
+.popped {
+  background-color: #fff;
+  color: coral;
+  font-size: 25px;
+}
