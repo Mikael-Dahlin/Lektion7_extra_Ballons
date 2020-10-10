@@ -11,6 +11,14 @@ balloons.forEach((element) => {
   });
 });
 
+// add a second event listener to balloon elements
+balloons.forEach((element) => {
+  element.addEventListener("mouseout", (event) => {
+    event.preventDefault();
+    checkDone();
+  });
+});
+
 // add event listener to Reset Balloons button
 resetButton.addEventListener("click", () => {
   document.querySelectorAll(".popped").forEach((element) => {
@@ -24,6 +32,9 @@ resetButton.addEventListener("click", () => {
 function pop(element) {
   element.textContent = "POP!";
   element.classList.add("popped");
+}
+
+function checkDone(){
   if (
     balloons.length === document.querySelectorAll(".popped").length &&
     !alerted
