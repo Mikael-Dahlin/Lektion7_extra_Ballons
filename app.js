@@ -16,7 +16,7 @@ resetButton.addEventListener("click", () => {
   document.querySelectorAll(".popped").forEach((element) => {
     element.textContent = "";
     element.classList.remove("popped");
-    alerted = true;
+    alerted = false;
   });
 });
 
